@@ -14,7 +14,7 @@ namespace WebApplication1Nghia.Controllers
             return View();
         }
         [HttpPost]
-        public string GetName(string name)
+        public string GetInput(string name)
         {
             Model model = new Model();
             return model.GetName(name);
