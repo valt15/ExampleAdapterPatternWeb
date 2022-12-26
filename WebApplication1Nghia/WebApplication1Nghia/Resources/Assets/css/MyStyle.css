@@ -1,0 +1,48 @@
+﻿
+* {
+    margin: 0;
+}
+
+h1 {
+    background-color: rgb(49, 165, 136);
+}
+
+.container-fluid {
+    background-color: #68ee85;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.lam_mo {
+    color: #aaa;
+}
+
+.time, form {
+    color: rgb(16, 92, 102);
+    background-color: rgb(49, 165, 136);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.time {
+    color: rgb(0, 0, 0);
+}
+
+input[type="text"] {
+    width: calc(75% - 15px);
+    height: 25px;
+}
+
+.rotate-90 {
+    transform: rotate(90deg);
+}
